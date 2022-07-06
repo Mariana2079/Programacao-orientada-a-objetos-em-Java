@@ -1,0 +1,18 @@
+Problema e regras de negócio
+Um restaurante universitário tem valor fixo de R$ 6,50 nas refeições. Os descontos são os seguintes:
+ Acadêmicos 10%;
+ Servidores 8%.
+ Terceiros não tem desconto.
+1) Crie uma estrutura de generalização (superclasse) e especialização (subclasse) de acordo com
+os dados de cada classe:
+ Acadêmicos: nome, email, RA
+ Servidores: nome, email, SIAPE
+ Terceiros: nome, email, CPF
+2) Em todas as classes deve ser implementado o método que calcula o valor total das refeições de
+acordo com as regras de negócio envolvidas. Esse método deve ser o mesmo (sobrescrito) em
+todas as classes. Considere que o pagamento pode ser realizado para mais de uma refeição para o
+acadêmico, servidor ou terceiro.
+3) Crie uma classe principal de acordo com a seguinte estrutura:
+a. Menu com opções de escolha para cada objeto (Acadêmico, Servidor, Terceiro)
+b. Crie os objetos conforme a opção selecionada no menu, imprimindo os dados do objeto e o
+valor total de refeições a pagar.

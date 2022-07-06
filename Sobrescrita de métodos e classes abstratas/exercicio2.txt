@@ -1,0 +1,33 @@
+Crie um programa para calcular a folha de pagamento de uma empresa que possui dois
+tipos de funcionários: vendedores e administrativos. Para todos os funcionários a
+empresa precisa ter o registro do nome e do RG do funcionário. Os vendedores ganham
+comissão de suas vendas, portanto deve ter o valor total vendido em um determinado
+mês. Os administrativos têm um salário base mas podem ganhar horas extras adicionais.
+Faça uma hierarquia de classes com uma superclasse que implemente o que for comum
+aos dois tipos de funcionários e um método que calcule o valor do salário para cada
+funcionário:
+Os vendedores devem ter os seguintes métodos:
+a. Construtores necessários
+b. Getters e setters necessários
+c. Método que calcule o salário total considerando que a comissão é de
+5% sob o valor total vendido em um determinado mês.
+d. Método que imprima os dados do funcionário Vendedores.
+2. Para os administrativos implemente os seguintes métodos:
+a. Construtores necessários
+b. Getters e setters necessários
+c. Método que calcule salário total pago com o valor de um centésimo do
+salário por hora. ((salárioBase)/100)*totalHorasExtras
+d. Método que imprima os dados do funcionário Administradores
+3. O método que calcula o salário total de ambos os funcionários deve ser
+sobrescrito nas subclasses.
+4. Crie um método toString na superclasse para imprimir os dados. Nas subclasses
+sobrescreva esse método para mostrar também os dados específicos das
+subclasses
+5. Implemente a classe principal:
+a. Solicite que o usuário informe o mês que deseja calcular folha de
+pagamento. Para isso utilize a classe LocalDate.
+b. Solicite que o usuário crie os objetos (vendedor e administrativo) e exiba
+as informações dos objetos (com os atributos e o valor do salário
+calculado.
+c. Exiba o valor total da folha de pagamento (soma dos salários de ambos
+os funcionários).

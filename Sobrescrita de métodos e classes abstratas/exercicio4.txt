@@ -1,0 +1,27 @@
+Escreva um programa para calcular o gasto por km rodado de um veículo de acordo com o tipo de
+aro dos pneus: Aro 14 e Aro 13). Para isso, é importante informar a quantidade de km rodados, a
+quantidade de litros gastos para a quantidade de km informados e o preço do litro do
+combustível.
+REGRAS DE NEGÓCIO:
+• Pneus com aro 14 percorrem 25.000 km e custam R$ 275,00 cada
+• Pneus com aro 13 percorrem 20.000 km e custam R$ 190,00 cada
+O PROGRAMA DEVE CALCULAR:
+a) Os km rodados por litro de combustível (km rodados / quantidade de litros)
+b) O custo do combustível por km rodado ( 1 / km por litro * valor do litro)
+c) O custo do pneu por km rodado ((valor do pneu / km que cada tipo de pneu percorre) * 4)
+d) A soma dos gastos por km rodado
+IMPLEMENTE O PROGRAMA DA SEGUINTE FORMA:
+1) Crie uma superclasse abstrata que contém os atributos e métodos comuns às subclasses.
+2) Declare os atributos encapsulados.
+3) Crie o(s) método(s) abstratos necessários para efetuar o(s) cálculo(s).
+4) Formate os valores com duas casas decimais. Utilize o mesmo formato em todas as classes
+que geram a saída dos valores.
+5) Crie as subclasses com as características de cada pneu (Aro 14 ou Aro 13).
+6) Todas as classes devem implementar o mesmo método que calcula o custo do pneu com
+km rodado.
+7) Nas subclasses crie uma constante para armazenar a quantidade de km que cada tipo de
+pneu percorre e uma constante para armazenar o valor do pneu.
+8) Sobrescreva o(s) método(s) necessário(s) nas subclasses.
+9) Implemente a classe principal com os dois objetos (Aro 14 ou Aro 13). Implemente a entrada
+e saída dos dados com JOptionPane.
+Figura 1 – Exemplo de saída dos dados para

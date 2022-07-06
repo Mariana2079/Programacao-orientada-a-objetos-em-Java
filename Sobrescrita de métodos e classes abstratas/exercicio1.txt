@@ -1,0 +1,26 @@
+Problema e regras de negócio:
+O sistema deve calcular o valor do salário dos professores de uma Instituição
+de Ensino Superior (IES). Para isso, existe dois tipos de professores: Efetivo e
+Horista.
+- Professor efetivo é aquele que trabalha 40 horas e possui vínculo
+empregatício com a IES.
+- Professor horista é aquele que trabalha por hora e não possui vínculo
+empregatício com a IES.
+O programa deve calcular o valor do salário total do objeto criado.
+1) Crie os pacotes para armazenar as classes dos objetos.
+2) Desenvolva as classes dos objetos.
+a. O professor efetivo possui os seguintes atributos: nome, e-mail
+adicionalTitulacao e salarioBase.
+b. O professor horista possui: nome, e-mail qdeHoras e valorHora.
+c. O cálculo do salário total do professor efetivo é a soma do salário base
+com o adicional por titulação e do professor horista é a multiplicação do
+valor da hora com a quantidade de horas. Implemente o método que
+calcula o valor do salário total para cada objeto. Esse método deve ser
+o mesmo (sobrescrito), mas cada um atendendo as especificidades
+de cada objeto.
+3) Crie a classe principal:
+a. Solicite ao usuário que crie um determinado objeto (Professor Horista ou
+Professor Efetivo)
+b. Solicitar os dados
+c. Chamar o método que calcula o salário total
+d. Imprimir os dados do objeto criado.
