@@ -1,0 +1,23 @@
+1) Estrutura do projeto
+
+a) Crie um pacote chamado br.edu.utfpr.operacoes para armazenar as
+classes que modelam os objetos.
+
+2) Crie uma classe chamada “Operacoes” para modelar o objeto operações.
+Sabendo que para calcular as operações matemáticas é necessário ter os valores
+par os número 1 e número 2:
+
+a) Inclua os atributos encapsulados.
+
+b) Crie um método construtor padrão e um construtor que inicializa os
+atributos.
+
+c) Crie métodos getters e setters.
+
+d) Crie o método toString()
+
+3) Crie os métodos para realizar o cálculo das operações matemáticas.
+
+4) No cálculo da divisão o denominador não pode ser igual a zero.
+
+6) Crie a classe principal para testar o objeto;

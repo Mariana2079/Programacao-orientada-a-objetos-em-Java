@@ -1,0 +1,30 @@
+1) Estrutura do projeto
+
+a) Crie um pacote chamado br.edu.utfpr.imc para armazenar as classes que
+modelam os objetos.
+
+2) Crie uma classe chamada “Imc” para modelar o objeto imc. Sabendo que para
+calcular o IMC é necessário ter os valores de peso e altura:
+
+a) Inclua os atributos encapsulados.
+
+b) Crie um método construtor padrão e um construtor que inicializa os
+atributos.
+
+c) Crie métodos getters e setters.
+
+d) Crie o método toString()
+
+3) Crie o método para realizar o cálculo do IMC.
+
+4) Crie um método para interpretar o IMC.
+- Se o valor do IMC for menor que 20 o usuário é considerado “Magro”
+- Se o valor do IMC for entre 20 e 24 o usuário é considerado “Normal”
+- Se o valor do IMC for entre 25 e 29 o usuário é considerado “Acima do
+Peso”
+- Se o valor do IMC for entre 30 e 34 o usuário é considerado “Obeso”
+- No caso de outras opções o usuário é considerado “Muito obeso”.
+
+5) Os valores de peso e altura não devem ser iguais a zero e negativos.
+
+6) Crie a classe principal para testar o objeto;

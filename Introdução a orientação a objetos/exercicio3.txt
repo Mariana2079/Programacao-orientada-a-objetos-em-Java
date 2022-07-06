@@ -1,0 +1,27 @@
+1. Criar um projeto com a seguinte estrutura com um pacote chamado
+br.edu.utfpr.fruta.
+
+2. Nesse pacote, criar uma classe chamada Fruta para armazenar os dados das
+frutas.
+
+-Encapsular os atributos das frutas: nome, pesoAproximado e
+tamanhoAproximado.
+
+-Criar dois métodos construtores: o primeiro construtor é padrão e o
+segundo deve inicializar os atributos.
+
+- Criar os métodos getters e setters para acessar e modificar os atributos.
+
+-Não permitir que o usuário informe valores negativos para os atributos
+pesoAproximado e tamanhoAproximado. Caso o valor for negativo os
+atributos devem assumir o valor padrão zero.
+
+-Criar um método toString() para imprimir os dados das frutas.
+
+3. Crie a classe principal
+
+-Crie um objeto fruta1: O usuário deve informar os dados da fruta (utilize
+JOptionPane para receber os dados e imprimir os dados);
+
+-Crie um objeto fruta2: os dados devem ser inseridos no momento da
+criação do objeto (crie o objeto com os dados estáticos).
